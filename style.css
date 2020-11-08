@@ -1,0 +1,99 @@
+/* Defining the box-sizing to a default of border-box */
+* {
+    box-sizing: border-box;
+}
+/* Adds header graphics */
+body > header {
+    background-image: url("images/Colorful-Space-View.jpg");
+    margin: auto;
+    padding: 20px;
+    border-bottom: solid;
+    border-bottom-color: blueviolet;
+    height: 250px;
+}
+/* Adds graphics to the body of the website */
+body {
+    background-image: url("images/Starry-Night-Background.jpg");
+    height:auto;
+}
+/* Defines a width for the header ruler */
+body > main > hr {
+    width:920px
+}
+/* Adds a slategrey border arount the article(s) */
+body > main > div > nav {
+    background-color: slategrey;
+    border: solid;
+    width: 920px;
+    margin: 15px auto;
+    padding: 20px 20px;
+    border-color: aqua;
+}
+/* Graphics for the Article(s) and positioning the content to the center.*/
+body > main > div > nav > article {
+    background-color: white;
+    font-family:sans-serif;
+    margin: auto;
+    align-content: center;
+    padding: 0px 100px;
+    border: dotted;
+}
+/* Centers Twitch Logo */
+body > main > div > nav > article > img {
+    margin-left: 215px;
+}
+/* Aligns Contact Me to the center and defines a height */
+body > footer > div {
+    height: 195px;
+    align-content: center;
+}
+
+/* Positioning Contact Links */
+body > footer > div > nav {
+    background-color: white;
+    width: 400px;
+    align-content: center;
+    margin: 0px auto;
+    border:solid;
+    border-color:black;
+}
+/* h3 Text alignment, size, underline, and margin */
+h3.text-config {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 13px;
+}
+/* Pseudo Classes for links */
+/* Default color for link(s) */
+a:link {
+    color:blue;
+}
+/* Changes color of link(s) after user visited */
+a:visited {
+    color:purple;
+}
+/* Changes color to aqua when hovering over a link */
+a:hover {
+    color:aqua;
+}
+/* Changes color to Orangered when link is clicked */
+a:active {
+    color:orangered;
+}
+/* header text styles and under shadow */
+.header-text {
+    font-family: monospace;
+    text-align: center;
+    color:black;
+    font-size: 28px;
+    text-shadow: 3px 2px grey;
+}
+/* Centers text */
+.text-center {
+    text-align: center;
+}
+/* Defines a width for wrapping in the article(s) */
+.wrapper {
+    width: 870px;
+}
